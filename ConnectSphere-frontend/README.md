@@ -1,16 +1,73 @@
-# React + Vite
+# ConnectSphere 🌐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ConnectSphere is a professional networking platform inspired by modern social networking applications. The goal is to create a platform where users can connect, share posts, build professional relationships, and interact with each other.
 
-Currently, two official plugins are available:
+🚧 **Project Status: Under Development (Frontend Phase)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
 
-## React Compiler
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Tailwind CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Planned Features
 
-## Expanding the ESLint configuration
+- User Registration and Login
+- User Profile Management
+- Create and Share Posts
+- Connect with Other Users
+- Like and Comment on Posts
+- Responsive Design
+- Real-time Chat
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Project Structure
+
+```text
+ConnectSphere/
+└── ConnectSphere-frontend/
+    ├── public/
+    ├── src/
+    ├── package.json
+    └── ...
+```
+
+## ⚙️ Getting Started
+
+1. Clone the repository:
+
+```bash
+git clone YOUR_REPOSITORY_URL
+```
+
+2. Navigate to the frontend directory:
+
+```bash
+cd ConnectSphere-frontend
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+## 🔮 Future Plans
+
+- Complete the frontend UI.
+- Develop backend services using Node.js and Express.js.
+- Integrate MongoDB.
+- Implement authentication and real-time communication.
+
+## 👩‍💻 Developer
+
+**Princy Singh**
+
+Built with ❤️ while learning and exploring full-stack development.

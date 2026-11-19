@@ -15,7 +15,7 @@ const LandingPage = () => {
         <div className='mx-auto mb-4 text-sm w-[70%] mt-6'>By clicking Continue to join or sign in , you agree to <span className='text-blue-600 cursor-pointer hover:underline'>ConnectShpere's User Agreement</span>,<span className='text-blue-600 cursor-pointer hover:underline'>Privacy Policy</span>
                  and <span className='text-blue-600 cursor-pointer hover:underline'>Cookie Poilicy</span>
         </div>
-        <Link to = {'/signup'}className='mx-auto text-center mb-4 text-lg w-[70%] mt-4'>
+        <Link to = {'/signup'} className='mx-auto text-center mb-4 text-lg w-[70%] mt-4'>
           New to ConnectSphere ?<span className='text-blue-600 cursor-pointer hover:underline'>Join now</span>
           
         </Link>

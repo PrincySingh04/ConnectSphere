@@ -16,9 +16,9 @@ const Navbar1 = () => {
         <Link to = '/signup' className='md:px-4 py-2 box-border  text-blue-800 rounded-3xl text-xl hover:bg-gradient-to-r from-[#083d6b] to-[#00acc1] cursor-pointer'>Join now
 
         </Link>
-        <div className='md:px-4 py-2 box-border border-1 text-blue-800 hover:bg-gradient-to-r from-[#083d6b] to-[#00acc1] border-blue-800 rounded-3xl text-xl  cursor-pointer'>Sign in 
+        <Link to = "/login" className='md:px-4 py-2 box-border border-1 text-blue-800 hover:bg-gradient-to-r from-[#083d6b] to-[#00acc1] border-blue-800 rounded-3xl text-xl  cursor-pointer'>Sign in 
 
-        </div>
+        </Link>
 
 
       </div>

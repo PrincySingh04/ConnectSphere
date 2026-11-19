@@ -5,6 +5,7 @@ import LandingPage from './pages/LandingPage'
 import Footer from './components/footer/Footer'
 import {Routes,Route} from 'react-router-dom'
 import SignUp from './pages/signup/SignUp'
+import Login from './pages/Login'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<LandingPage/>}>  </Route>
         <Route path='/signup' element={<SignUp/>}></Route>
+        <Route path='/login' element={<Login/>}></Route>
       </Routes>
       
       <Footer/>

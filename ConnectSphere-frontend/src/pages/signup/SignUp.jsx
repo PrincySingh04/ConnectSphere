@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const SignUp = () => {
   return (
@@ -24,8 +25,16 @@ const SignUp = () => {
                     Register
 
                 </div>
+               
+
+                </div>
+                 <div className='flex items-center gap-2'>
+                    <div className='border-b-1 border-gray-400 w-[45%]'></div>
+                    <div>or</div><div className='border-b-1 border-gray-400 w-[45%]'></div>
             </div>
+            <div>Sign in to google</div>
         </div>
+        <div className='mt-4 mb-10'>Already on ConnectSphere ?<Link to ="/login" className='text-blue-600 cursor-pointer'>Sign in</Link></div>
       
     </div>
   )

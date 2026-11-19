@@ -3,6 +3,7 @@
 ConnectSphere is a professional networking platform inspired by modern social networking applications. The goal is to create a platform where users can connect, share posts, build professional relationships, and interact with each other.
 
 🚧 **Project Status: Under Development (Frontend Phase)**
+- Currently working on landing page
 
 ## 🛠️ Tech Stack
 
@@ -32,32 +33,7 @@ ConnectSphere/
     ├── package.json
     └── ...
 ```
-
-## ⚙️ Getting Started
-
-1. Clone the repository:
-
-```bash
-git clone YOUR_REPOSITORY_URL
-```
-
-2. Navigate to the frontend directory:
-
-```bash
-cd ConnectSphere-frontend
-```
-
-3. Install dependencies:
-
-```bash
-npm install
-```
-
-4. Start the development server:
-
-```bash
-npm run dev
-```
+``
 
 ## 🔮 Future Plans
 

@@ -1,13 +1,14 @@
+import { GoogleLogin } from '@react-oauth/google'
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import Googlelogin from '../components/google login/Googlelogin'
 const LandingPage = () => {
   return (
     <div className='my-4 py-[50px] md:pl-[120px] px-5 md:flex justify-between'>
         <div className='md:w-[40%]'>
             <div className='text-4xl mx-auto text-gray-600'>Welcome To Your Professional Community</div>
-            <div className='my-3 flex mx-auto mt-[20px] bg-white gap-2 rounded-3xl w-[70%] text-black cursor-pointer '>
-            Google Button
+            <div className='my-3 flex mx-auto mt-[20px] bg-white gap-2 rounded-3xl w-[70%] text-black cursor-pointer flex justify-center'>
+            <GoogleLogin/>
         </div>
         <div className='my-3 flex mx-auto mt-[20px] py-2 px-2 bg-white gap-2 rounded-3xl w-[70%] text-black border-2 cursor-pointer items-center justify-center'>
            Sign in with email

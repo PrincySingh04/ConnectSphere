@@ -1,6 +1,7 @@
+import { GoogleLogin } from '@react-oauth/google'
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import Googlelogin from '../../components/google login/Googlelogin'
 const SignUp = () => {
   return (
     <div className='w-full flex flex-col items-center justify-center'>
@@ -32,7 +33,7 @@ const SignUp = () => {
                     <div className='border-b-1 border-gray-400 w-[45%]'></div>
                     <div>or</div><div className='border-b-1 border-gray-400 w-[45%]'></div>
             </div>
-            <div>Sign in to google</div>
+            <div><GoogleLogin/></div>
         </div>
         <div className='mt-4 mb-10'>Already on ConnectSphere ?<Link to ="/login" className='text-blue-600 cursor-pointer'>Sign in</Link></div>
       
